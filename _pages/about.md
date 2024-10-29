@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: AI Researcher | NLP Engineer | Passionate About Helping Machines Understand Humans
 
 profile:
   align: right
@@ -18,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research is centered around developing **innovative techniques** that enable machines to understand and analyze **human communication** in **multimodal contexts**. I am particularly focused on creating **machine learning models** and **algorithms** capable of processing multiple modalities, such as **text** and **visual inputs**, with precision.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have had the privilege of working extensively with **large language models**, contributing both to their **development** and **real-world applications**. While I continue to explore their **architecture** and **potential**, my work has also been geared towards implementing these models in **practical settings**, where they help solve **complex challenges** and drive **meaningful business outcomes**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In addition, I am passionate about exploring areas like **sentiment analysis**, **topic modeling**, and **opinion mining**. My goal is to apply these techniques to **social media data**, enabling deeper insights into **public opinion**, **consumer behavior**, and the dynamics of **information spread** across digital platforms.
