@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href="https://ahkarimi.github.io/assets/pdf/Amir_Hossein_karimi_2024_10.pdf" download>Download PDF CV</a>
+    <p></p>
 
 
 news: false # includes a list of news items
