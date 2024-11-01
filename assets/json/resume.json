@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Amir Hossein Karimi",
-    "label": "Research Engineer",
+    "label": "NLP Research Engineer",
     "image": "",
     "email": "ahkarimi9797 at gmail.com",
     "phone": "",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "url": "",
     "profiles": [
       {
         "network": "Linkedin",
@@ -43,17 +43,17 @@
       "url": "https://amerandish.com/?lang=en",
       "startDate": "2021-12-01",
       "endDate": "Present",
-      "summary": "Key responsibilities: Training our languagemodelfor different subtasks, lookingfor ways to improve themodels we already have, and making tools for our dialogue system.",
-      "highlights": ["Technology used: LLMs, Transformers, PyTorch"]
+      "summary": "Key responsibilities: Training language models for various subtasks, identifying opportunities for model improvement, and developing tools for our dialogue system.",
+      "highlights": []
     },
     {
         "name": "PaperScore",
         "position": "Research Engineer ‑ Part Time",
         "url": "https://paperscore.org/",
         "startDate": "2023-03-01",
-        "endDate": "Present",
+        "endDate": "2024-04-01",
         "summary": "Key responsibilities: Conducting research and developing models for text grading methods and for identifying and assessing claims in scientific texts.",
-        "highlights": ["Technology used: LLMs, Transformers, Gensim, SpaCy"]
+        "highlights": []
       }
   ],
   "volunteer": [

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: AI Researcher | NLP Engineer | Passionate About Helping Machines Understand Humans
 
