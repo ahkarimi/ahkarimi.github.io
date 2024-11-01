@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: Amir_Hossein_karimi_2024_10.pdf
+description: Welcome to my CV page — feel free to explore my experience, and if you'd like, you can download the PDF version.
 toc:
   sidebar: left
 ---
