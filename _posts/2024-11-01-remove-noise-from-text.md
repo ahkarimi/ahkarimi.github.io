@@ -8,6 +8,15 @@ categories: NLP
 featured: true
 ---
 
+<div class="row mt-3">
+    <div class="col-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" url="https://unsplash.com/photos/two-caution-signages-oTvU7Zmteic" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Image by Oliver Hale @ unsplash.com
+</div>
+
 We’ve all been there. You’re trying to make sense of a conversation recorded during a phone call or transcribed from a voice assistant, and what you get is littered with noise: “uhh”, “em”, or endless repetitions of “aaa.” It’s frustrating to sift through the gibberish, and it makes automated text processing difficult. This challenge often arises when dealing with Automatic Speech Recognition (ASR) systems.
 
 Think about it—ASR systems are not perfect. They try their best to convert speech into text, but background noise, filler words, or even accents can introduce meaningless "noise" into the transcription. If you’re building an AI application to handle customer queries, or analyze voice calls, you need a way to filter out that junk, or your models might get confused by non-informative words. 
@@ -29,6 +38,9 @@ Here’s how we do it, step by step:
 4. **Reconstructing the Text**: Once we’ve filtered out the noisy tokens, we convert the valid tokens back into a clean string.
 
 Let’s look at the code that implements this.
+
+<br />
+
 
 ### The Code
 
@@ -76,10 +88,11 @@ filtered_text = tokenizer.convert_tokens_to_string(filtered_tokens)
 
 print(f"Filtered text: {filtered_text}")
 ```
+<br />
 
 ### Breaking Down the Code
 
-#### 1. **Loading the Pre-trained Model and Tokenizer**
+1. **Loading the Pre-trained Model and Tokenizer**
 We begin by loading a pre-trained tokenizer and a masked language model (MLM) from the Hugging Face library. The `model_name` would be a model that suits your language needs (for example, `bert-base-uncased` for English).
 
 ```python
@@ -87,7 +100,7 @@ tokenizer = PreTrainedTokenizerFast.from_pretrained(model_name)
 model = AutoModelForMaskedLM.from_pretrained(model_name)
 ```
 
-#### 2. **Tokenizing the Input Text**
+2. **Tokenizing the Input Text**
 Next, we break the input text into tokens. These tokens are then converted into token IDs, which is how the model understands the text.
 
 ```python
@@ -95,14 +108,14 @@ tokens = tokenizer.tokenize(text)
 token_ids = tokenizer.convert_tokens_to_ids(tokens)
 ```
 
-#### 3. **Creating Input Tensors**
+3. **Creating Input Tensors**
 We convert the list of token IDs into a tensor, which is the format expected by the PyTorch-based model.
 
 ```python
 input_ids = torch.tensor([token_ids])
 ```
 
-#### 4. **Masking Tokens and Predicting**
+4. **Masking Tokens and Predicting**
 Here’s where the magic happens. For each token, we temporarily mask it and ask the model to predict what should be in its place. The model’s output gives us probabilities for every possible token. If the model's prediction for the original token is above a set threshold, we keep the token; otherwise, it’s discarded as noise.
 
 ```python
@@ -117,15 +130,17 @@ if token_prob > threshold:
     valid_tokens.append(tokens[i])
 ```
 
-#### 5. **Filtering with a Threshold**
+5. **Filtering with a Threshold**
 We define a threshold to decide which tokens to keep. This threshold can be fine-tuned depending on how strict we want the filtering to be. Lower thresholds may retain more tokens, while higher thresholds may strip away more noise.
 
-#### 6. **Reconstructing the Clean Text**
+6. **Reconstructing the Clean Text**
 Finally, we take the remaining valid tokens and convert them back into a readable string format.
 
 ```python
 filtered_text = tokenizer.convert_tokens_to_string(filtered_tokens)
 ```
+
+<br />
 
 ### Why This Works
 
@@ -145,6 +160,8 @@ The filtered output might be:
 ```
 
 This approach can be extended and refined with larger datasets, adjusted thresholds, or custom fine-tuned models to adapt to specific domains like customer service or healthcare.
+
+<br />
 
 ### Conclusion
 
