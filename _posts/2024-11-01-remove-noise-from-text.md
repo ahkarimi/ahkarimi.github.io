@@ -9,8 +9,8 @@ featured: true
 ---
 
 <div class="row mt-3">
-    <div class="col-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog/2024/cleaning_in_progress.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog/cleaning_in_progress.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -150,8 +150,6 @@ filtered_text = tokenizer.convert_tokens_to_string(filtered_tokens)
 ### Why This Works
 
 Masked language models, like BERT, are trained to predict missing words based on the context around them. When we mask a token in our noisy text and ask the model to predict the token that should be there, the model uses the surrounding context to make a highly informed guess. If it confidently predicts that a token should be in its place, we trust that the token is meaningful. If not, it’s probably just noise, and we can safely remove it.
-
-<br />
 
 ### The Result: Cleaner Text
 
