@@ -6,11 +6,12 @@ description: This guide shows how to filter meaningless noise like 'um' and 'aaa
 tags: noise_filtering text_cleaning
 categories: NLP
 featured: true
+thumbnail: assets/img/blog/2024/cleaning_in_progress.jpg
 ---
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog/cleaning_in_progress.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="col-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog/2024/cleaning_in_progress.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
