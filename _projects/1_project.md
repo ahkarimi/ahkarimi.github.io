@@ -2,7 +2,7 @@
 layout: page
 title: Chatbot for Municipality
 description: 2021-08
-img: assets/img/12.jpg
+# img: assets/img/12.jpg
 importance: 1
 category: University
 ---
