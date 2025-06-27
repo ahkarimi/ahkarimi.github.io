@@ -1,0 +1,269 @@
+{
+  "basics": {
+    "name": "Amir Hossein Karimi",
+    "label": "NLP Research Engineer",
+    "image": "",
+    "email": "ahkarimi9797 at gmail.com",
+    "phone": "",
+    "url": "",
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "ahkarimi",
+        "url": "https://www.linkedin.com/in/ahkarimi"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "url": "https://aut.ac.ir/",
+      "area": "Computer Science",
+      "studyType": "M.Sc.",
+      "startDate": "2020-09-01",
+      "endDate": "2022-10-01",
+      "courses": ["Thesis Topic: Multimodal Task‑Oriented Dialogue System", "Supervisor: Dr. Mohammad Akbari"]
+    },
+    {
+        "institution": "Institute for Advanced Studies in Basic Sciences (IASBS)",
+        "location": "Zanjan, Iran",
+        "url": "https://iasbs.ac.ir/",
+        "area": "Information Technology",
+        "studyType": "B.Sc.",
+        "startDate": "2015-09-01",
+        "endDate": "2020-06-01",
+        "courses": ["Thesis Topic: Box Office forecasting using machine learning algorithms", "Supervisor: Dr. Mohammad Reza Faraji"]
+      }
+  ],
+  "work": [
+    {
+      "name": "Amerandish Hooshmand Co.",
+      "position": "Research Engineer ‑ Full Time",
+      "url": "https://amerandish.com/?lang=en",
+      "startDate": "2021-12-01",
+      "endDate": "Present",
+      "summary": "Key responsibilities: Training language models for various subtasks, identifying opportunities for model improvement, and developing tools for our dialogue system.",
+      "highlights": []
+    },
+    {
+        "name": "PaperScore",
+        "position": "Research Engineer ‑ Part Time",
+        "url": "https://paperscore.org/",
+        "startDate": "2023-03-01",
+        "endDate": "2024-04-01",
+        "summary": "Key responsibilities: Conducting research and developing models for text grading methods and for identifying and assessing claims in scientific texts.",
+        "highlights": []
+      }
+  ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "location": "Zurich, Switzerland",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
+  // ],
+  // "certificates": [
+  //   {
+  //     "name": "Machine Learning",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-location-dot"
+  //   },
+  //   {
+  //     "name": "Quantum Computing",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-tag"
+  //   },
+  //   {
+  //     "name": "Quantum Information",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-envelope"
+  //   },
+  //   {
+  //     "name": "Quantum Cryptography",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-hashtag"
+  //   },
+  //   {
+  //     "name": "Quantum Communication",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-calendar"
+  //   },
+  //   {
+  //     "name": "Quantum Teleportation",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-clipboard-check"
+  //   }
+  // ],
+  // "publications": [
+  //   {
+  //     "name": "Zur Elektrody/namik bewegter Körper",
+  //     "publisher": "Annalen der Physik",
+  //     "releaseDate": "1905-06-30",
+  //     "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+  //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+  //   },
+  //   {
+  //     "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+  //     "publisher": "Annalen der Physik",
+  //     "releaseDate": "1905-03-18",
+  //     "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+  //     "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+  //   },
+  //   {
+  //     "name": "Die Grundlage der allgemeinen Relativitätstheorie",
+  //     "publisher": "Annalen der Physik",
+  //     "releaseDate": "1916-03-20",
+  //     "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
+  //     "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+  //   }
+  // ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python (+5 years of consistent use in core academic and professional NLP/AI projects.)",
+        "R (1 year of use for a data-intensive B.Sc. thesis)",
+        "C++ (basic)",
+        "Bash Scripting (basic)"
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "PyTorch (+3 years of application in core research (M.Sc. thesis) and professional roles.)",
+        "Hugging Face (Central to professional roles at Amerandish and PaperScore for transformer models.)",
+        "Scikit-learn (Implied as a standard tool for ML tasks throughout 4+ years of Python experience.)",
+        "Transformers (Core technology used in both professional roles for classification and extraction.)",
+        "Model Fine-Tuning (A core activity when working with pre-trained transformer models.)",
+        "Prompt Engineering (Explicitly listed technology used in a professional role.)",
+        "Hyperparameter Tuning (A standard and necessary part of developing high-performing models.)"
+      ]
+    },
+    {
+      "name": "Data Science & NLP",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Data Analysis (A core component of all research and professional roles.)",
+        "Text Classification (Key responsibility at Amerandish and PaperScore.)",
+        "Information Extraction (Key responsibility at Amerandish and PaperScore.)",
+        "NLP Pipelines (Developed and optimized end-to-end workflows at Amerandish.)",
+        "Semantic Enrichment (Implied through work with multimodal systems and claim verification.)",
+        
+      ]
+    },
+    {
+      "name": "MLOps & Deployment",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "API Development (FastAPI, Basic knowledge of serving models)",
+        "Docker (Experience in containerizing applications for reproducible research and deployment.)",
+        "Linux (Standard operating system for development and deployment in AI/ML fields.)",
+        "CI/CD (Basic understanding of Github Actions)",
+        "Celery (Basic knowledge of using distributed task queues for asynchronous processing.)",
+        "Kafka (Basic knowledge of event streaming platforms for handling real-time data pipelines.)"
+      ]
+    },
+    {
+      "name": " Developer & Research Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Git & GitHub (Essential version control tool for collaborative and professional software development.)",
+        "Jira (Common tool for project management in professional software environments.)",
+        "LaTeX (Standard for academic writing and publications.)",
+        "EndNote (Standard tool for reference management in a research context.)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "CEFR: C2 Proficient",
+      "icon": ""
+    },
+    {
+      "language": "Persian",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "Azeri",
+      "fluency": "Native",
+      "icon": ""
+    }
+  ],
+  // " Hobbies": [
+  //   {
+  //     "name": "Physics",
+  //     "icon": "fa-solid fa-tag",
+  //     "keywords": [
+  //       "Quantum Mechanics",
+  //       "Quantum Computing",
+  //       "Quantum Information",
+  //       "Quantum Cryptography",
+  //       "Quantum Communication",
+  //       "Quantum Teleportation"
+  //     ]
+  //   }
+  // ],
+  "references": [
+    {
+      "name": "Dr. Mohammad Akbari",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Assistant Professor, Computer Science Department, Amirkabir University of Technology, Tehran, Iran"
+    },
+    {
+      "name": "Dr. Ali Mohades",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Associate Professor, Computer Science Department, Amirkabir University of Technology, Tehran, Iran"
+    },
+    {
+      "name": "Dr. Mohammadreza Faraji",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Postdoctoral Researcher, Computer Science Department, Utah State University, Utah, United States"
+    }
+  ]
+  // "projects": [
+  //   {
+  //     "name": "Quantum Computing",
+  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+  //     "startDate": "2018-01-01",
+  //     "endDate": "2018-01-01",
+  //     "url": "https://example.com"
+  //   }
+  // ]
+}
