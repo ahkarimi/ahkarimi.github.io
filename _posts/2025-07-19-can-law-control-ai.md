@@ -6,12 +6,12 @@ description: When a self-driving car makes a fatal mistake, who do you blame—t
 tags: ai_ethics 
 categories: AI
 featured: true
-thumbnail: assets/img/blog/2025/a-robot-in-court.jpeg
+thumbnail: assets/img/blog/2025/a_robot_in_court.jpeg
 ---
 
 <div class="row mt-3">
     <div class="col-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog/2025/a-robot-in-court.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/2025/a_robot_in_court.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
