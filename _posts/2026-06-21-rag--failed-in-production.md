@@ -5,6 +5,7 @@ date: 2026-06-21 12:00:00
 description: RAG failed in production due to chunking, semantic gaps, and stale indexes. Even Claude Code abandoned it for agentic search.
 tags: rag production
 categories: AI
+thumbnail: assets/img/blog/2025/rag-vs-agentic-search.png
 ---
 
 <div class="row mt-3">
